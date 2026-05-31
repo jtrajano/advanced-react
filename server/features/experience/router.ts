@@ -15,7 +15,7 @@ import {
   experiencesTable,
   experienceTagsTable,
   notificationsTable,
-  tagSelectSchema,
+  tagSelectSchema, 
 } from "../../database/schema";
 import { protectedProcedure, publicProcedure, router } from "../../trpc";
 import { DEFAULT_EXPERIENCE_LIMIT } from "../../utils/constants";
